@@ -1,6 +1,6 @@
 # thinning_function.py: A program to thin SNPs in VCF files.
 
-##### Written by Andre Moncrieff, 2018.
+##### Written by Andre E. Moncrieff, 2018.
 
 ## Introduction 
 
@@ -9,12 +9,12 @@ This program serves to select variants in a VCF file based on a specified distan
 ## Step-by-step instructions 
 #### (*Sorry, a few quick manual steps--I know, needs an update!*)
 
-- Before running, remove the header lines in your VCF before the line starting with '#CHROM'
+- Remove the header lines in your VCF before the line starting with '#CHROM'
 - Delete the '#' before 'CHROM'
 - Change your vcf file extension to .txt
 - Run: `python thinning_function.py --inp_name yourVCF.txt` 
-- To change the thinning distance update the "linkage block" variable in the script
-- In output file, add '#' before 'CHROM', add full VCF header info, and change extension back to .vcf
+- To change the thinning distance, update the "linkage block" variable in the .py script
+- In the output file, add '#' before 'CHROM', add full VCF header info, and change extension back to .vcf
 
 ## Citation
 [![DOI](https://zenodo.org/badge/404800974.svg)](https://zenodo.org/badge/latestdoi/404800974)
