@@ -14,5 +14,5 @@ This program serves to select variants in a VCF file based on a specified distan
 - Change your vcf file extension to .txt
 - Run: `python thinning_function.py --inp_name yourVCF.txt` 
 - To change the thinning distance update the "linkage block" variable in the script
-- Add full VCF header info back into your new VCF file
+- In output file, add '#' before 'CHROM', add full VCF header info, and change extension back to .vcf
 
