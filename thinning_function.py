@@ -26,8 +26,8 @@ def parser():
 
 
 def read_in_csv(inp_name):
-    #Note: Before reading vcf file in, remove first 10 lines and remove #
-    #from '#CHROM' header. Then change extension to .txt
+    #Note: Before reading vcf file in, remove header lines before line starting with '#CHROM'.
+    #Also, remove the '#' from in front of 'CHROM'. Then change extension to .txt
     vcf_df = pandas.read_csv(inp_name, sep='\t', encoding = "ISO-8859-1")
     return vcf_df
 
