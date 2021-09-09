@@ -16,3 +16,9 @@ This program serves to select variants in a VCF file based on a specified distan
 - To change the thinning distance update the "linkage block" variable in the script
 - In output file, add '#' before 'CHROM', add full VCF header info, and change extension back to .vcf
 
+## Citation
+[![DOI](https://zenodo.org/badge/404800974.svg)](https://zenodo.org/badge/latestdoi/404800974)
+
+Moncrieff, A.E. 2018. thinning_function v1.0: a program to thin SNPs in VCF files. DOI:10.5281/zenodo.2540861
+
+
