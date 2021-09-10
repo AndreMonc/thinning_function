@@ -1,4 +1,4 @@
-# thinning_function.py: A program to thin SNPs in VCF files.
+# thinning_function.py: a program to thin SNPs in VCF files.
 
 ##### Written by Andre E. Moncrieff, 2018.
 
